@@ -1,1 +1,1 @@
-# coding-preview-jr-dev-vokraf
+# Coding Preview for Junior Developer at Vokraf
