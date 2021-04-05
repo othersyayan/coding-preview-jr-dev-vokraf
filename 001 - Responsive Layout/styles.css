@@ -1,0 +1,44 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg-dark {
+  background-color: #000000 !important;
+}
+
+.navbar {
+  line-height: 1.5;
+  font-size: .875rem;
+  box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-weight: 600;
+  letter-spacing: .0892857143em;
+}
+
+.v-image, .main-content {
+  min-height: 80vh;
+}
+.v-image__cover {
+  background-image: url("https://sbsjewel-storage.fra1.digitaloceanspaces.com/web/SBS-jewellery-luna-stella.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.btn-outline-dark {
+  border-color: white;
+}
+
+.btn-outline-dark:hover {
+  background-color: #000;
+}
+
+@media only screen and (max-width: 576px) {
+  .respDesc {
+    display: none;
+  }
+}
